@@ -5,10 +5,11 @@ export const Navbar = () => {
     const { store } = useGlobalReducer();
 
     return (
-        <nav className="navbar navbar-light bg-light">
+        <nav className="navbar navbar-dark bg-dark shadow">
             <div className="container">
-                <Link to="/">
-                    <span className="navbar-brand mb-0 h1">Star Wars Blog</span>
+                <Link to="/" className="d-flex align-items-center gap-2">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Star_Wars_Logo.svg" alt="Star Wars Logo" style={{height: "40px"}} />
+                    <span className="navbar-brand mb-0 h1 text-warning">Star Wars Blog</span>
                 </Link>
                 <div className="ml-auto">
                     <div className="dropdown">

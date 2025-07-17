@@ -20,7 +20,7 @@ const VehiclesList = () => {
         <div className="col-md-4" key={vehicle.uid}>
           <div className="card mb-3">
             <img
-  src="https://static.wikia.nocookie.net/starwars/images/6/6c/Star_Wars_Logo.png"
+  src="https://static.wikia.nocookie.net/starwars/images/f/ff/Sandcrawler.png/revision/latest/scale-to-width-down/1000?cb=20130812001443"
   className="card-img-top"
   alt={vehicle.name}
 />

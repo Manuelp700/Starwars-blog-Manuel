@@ -20,7 +20,7 @@ const PlanetsList = () => {
         <div className="col-md-4" key={planet.uid}>
           <div className="card mb-3">
             <img
-  src="https://static.wikia.nocookie.net/starwars/images/6/6c/Star_Wars_Logo.png"
+  src="https://static.wikia.nocookie.net/esstarwars/images/4/4a/Alderaan.jpg/revision/latest?cb=20100723184830"
   className="card-img-top"
   alt={planet.name}
 />

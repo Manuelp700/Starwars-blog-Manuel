@@ -20,7 +20,7 @@ const PeopleList = () => {
         <div className="col-md-4" key={person.uid}>
           <div className="card mb-3">
             <img
-  src="https://static.wikia.nocookie.net/starwars/images/6/6c/Star_Wars_Logo.png"
+  src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/02/luke-skywalker-grogu-the-book-of-boba-fett.jpg?q=50&fit=crop&w=1140&h=&dpr=1.5"
   className="card-img-top"
   alt={person.name}
 />
